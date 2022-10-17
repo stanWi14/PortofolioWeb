@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Experience | Organization</title>
+  <link rel = "icon" href ="image/photo/logo.png" type = "icon">
+  <link rel="stylesheet" href="cssfile/navcss.css">
+  <link rel="stylesheet" href="cssfile/tabsnav.css">
+  <link rel="stylesheet" href="cssfile/darkcard.css">
+  </head>
+<body>
+  <!-- navbar div -->
+    <div class="">
+        <ul class="nav justify-content-center h3 d-flex" id="mainnav">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="Index.html">Stanley Wisely</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="Experience.html">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+          </ul>
+    </div>
+    <!-- tabs -->
+    <div>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link tabslink" aria-current="page" href="Experience.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tabslink active" style="color:#1B262C; background-color:#ffe400;" href="Organization.html">Organization</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tabslink" href="Skill.html">Skill</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tabslink" href="Gallery.html">Gallery</a>
+            </li>
+          </ul>
+    </div>
+    <div class="container-fluid pb-3 pt-3 jumbotron"; style="background-color: #3282B8;">
+      <div style="color: white;">
+        <h1 class="display-2">HIMTI</h1>
+        <h4>( Himpunan Mahasiswa Teknik Informatika )</h4>
+        <h4>Periode 2021/2022</h4>
+      </div>
+      <div class="row justify-content-evenly" id="himti1"></div>
+      <h4 style="color: white;padding-top: 5pt;">Periode 2022/2023</h4>
+      <div class="row justify-content-evenly" id="himti2"></div>
+    </div>
+    <div class="container-fluid pb-3 pt-3" style="color: #0F4C75; background-color: #BBE1FA;">
+      <h1 class="display-2">BNCC</h1>
+      <h4>( Bina Nusantara Computer Club )</h4>
+      <h4>Periode 2021/2022</h4>
+      <div class="row justify-content-evenly" id="bncc1"></div>
+      <h4 style="padding-top: 5pt;">Periode 2022/2023</h4>
+      <div class="row justify-content-evenly" id="bncc2"></div>
+    </div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="jsfile/himti2021.js"></script>
+<script src="jsfile/himti2022.js"></script>
+<script src="jsfile/bncc2021.js"></script>
+<script src="jsfile/bncc2022.js"></script>
+<script>
+$(function () {
+  $("[data-toggle='popover'").popover({
+    container: 'body'
+  })
+})
+</script>
+</body>
+<div class="container-fluid p-3" style="background-color: #1B262C ;">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3" st>
+      <li class="nav-item"><a href="Experience.html" class="nav-link px-2 ">Projects</a></li>
+      <li class="nav-item"><a href="Organization.html" class="nav-link px-2 ">Organizations</a></li>
+      <li class="nav-item"><a href="Skill.html" class="nav-link px-2 ">Skills</a></li>
+      <li class="nav-item"><a href="Gallery.html" class="nav-link px-2 ">Gallery</a></li>
+      <li class="nav-item"><a href="Contact.html" class="nav-link px-2 ">Contact</a></li>
+    </ul>
+    <p class="text-center text-muted">Copyright @ 2022 | Stanley Wisely</p>
+  </footer>
+</div>
+</html>

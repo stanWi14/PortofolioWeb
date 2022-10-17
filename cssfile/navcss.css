@@ -1,0 +1,11 @@
+[class^="nav"] {
+    margin: auto;
+    padding-top: 5px;
+}
+[class^="nav-link"] {
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
+#mainnav{
+    background-color: #1B262C;
+}
