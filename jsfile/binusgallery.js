@@ -18,12 +18,15 @@ var binitems = [
     let contentbin = '';
     binitems.forEach(p => {
     contentbin += `
-    <div class="card text-bg-dark p-2 m-2" style="width: 30%;">
-        <img src="image/GalleryBinus/${p[1]}" style="height: 250px;" class="card-img" alt="...">
+    <div class="col-md-4 col-sm-6 mb-3">
+    <div class="card text-bg-dark p-2">
+        <img src="image/GalleryBinus/${p[1]}" class="card-img" alt="..." style="height: 250px;">
         <div class="card-body">
-          <h5 class="card-title">${p[0]}</h5>
+            <h5 class="card-title">${p[0]}</h5>
         </div>
-      </div>
+    </div>
+</div>
+
     `
     });
     document.querySelector("#Binus").innerHTML = contentbin;
